@@ -1,0 +1,140 @@
+/* Universal styling */
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color:#4a4a4a
+}
+
+a {
+    text-decoration: none;
+    color:#4a4a4a;
+}
+
+/* header */
+header {
+    position: fixed;
+    height: 5rem;
+    background-color: white;
+    width: 100%;
+    padding: 1rem 0;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    padding: 0 0.5rem;
+    width: 100%;
+}
+
+.desktop {
+    width: 100%;
+    display: flex;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 50rem;
+}
+
+header nav li {
+    list-style: none;
+    padding-left: 1rem;
+}
+
+.logo-img {
+    height:50px;
+}
+
+.logo-text {
+    color:#d8d8d8;
+    font-size: 1.5rem;
+}
+
+.logo-text .colmar {
+    font-weight: bolder;
+    color:#4a4a4a;
+}
+
+
+
+@media only screen and (min-width: 640px) {
+    .mobile {
+        display:none;
+    }
+}
+
+/* body */
+.main-section {
+    position: relative;
+}
+
+.section-1 {
+    background-color: #d8d8d8;
+    display: flex;
+    padding: 7rem 2rem 2rem;
+}
+
+.section-1-content {
+    margin: auto;
+    padding: 1rem 3rem;
+}
+
+.section-1 h2 {
+    display: inline;
+}
+
+.section-1-img {
+    width: 60%;
+}
+
+.section-1-img img {
+    max-width: 100%;
+    height: auto;
+}
+
+.button-link {
+    background-color: #4a4a4a;
+    color: white;
+    padding: 1.25rem 2.5rem;
+}
+
+/* section 2 */
+.section-2 {
+    display: flex;
+    margin: auto;
+    padding: 2rem 2rem;
+}
+
+.section-2-left {
+    width: 60%;
+}
+
+.section-2-left img {
+    max-width: 100%;
+}
+
+.section-2-content {
+    margin: auto;
+    padding: 0 3rem;
+    display: inline-block;
+}
+
+.content-box {
+    width: 40%;
+    border: 1px #d8d8d8 solid;
+}
+
+.section-2-left h3 {
+    padding: 2rem 0;
+    font-size: 1.5rem;
+}
+
+.desktop-image {
+    display: none;
+}
