@@ -127,8 +127,12 @@ header nav li {
 }
 
 .content-box {
-    width: 40%;
     border: 1px #d8d8d8 solid;
+    display: flex;
+}
+
+.content-box img {
+    width: 35%;
 }
 
 .section-2-left h3 {
