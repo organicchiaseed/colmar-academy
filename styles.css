@@ -12,8 +12,9 @@ body {
 
 a {
     text-decoration: none;
-    color:#4a4a4a;
+    color:#9a9ea0; 
 }
+
 
 /* header */
 header {
@@ -137,4 +138,50 @@ header nav li {
 
 .desktop-image {
     display: none;
+}
+
+/* Section 3 */
+.section-3 {
+    background-color: #d8d8d8;
+    max-width: 100%;
+    padding: 2rem 7rem;
+}
+
+.section-3 h3 {
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 2rem 0;
+}
+
+.section-3-boxes {
+    display: flex;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section-3-container {
+    width: 32%;
+    margin-bottom: 1rem;
+    background-color: white;
+}
+
+.section-3-container img {
+    width: 100%;
+    padding-bottom: 1rem;
+}
+
+/* footer */
+footer {
+    display: flex;
+    font: 0.5rem;
+    color:#9a9ea0;
+    justify-content: space-between;
+    border-top: 2px solid #9a9ea0;
+    position: relative;
+    padding: 1rem 2rem;
+}
+
+.footer-links {
+    float: right;
 }
